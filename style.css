@@ -1,4 +1,43 @@
+#relative-box {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	background-color: lightblue;
+}
 
+#absolute-box {
+	position: absolute;
+	top: 150px;
+	left: 40px;
+	width: 200px;
+	background-color: lightgreen;
+}
 
+#fixed-box {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-color: lightcoral;
+}
 
+#static-box {
+	position: static;
+	background-color: lightgoldenrodyellow;
+}
 
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(white, steelblue);
+}
+
+.box {
+	border: 2px solid black;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
